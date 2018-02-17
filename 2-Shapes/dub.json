@@ -1,0 +1,12 @@
+{
+	"name": "2-shapes",
+	"authors": [
+		"Kadin Tucker"
+	],
+	"dependencies": {
+		"d2d": "~>1.4.8"
+	},
+	"description": "Tutorial number two in a series of tutorials for using the graphics package d2d.",
+	"copyright": "Copyright © 2018, Kadin Tucker",
+	"license": "proprietary"
+}
