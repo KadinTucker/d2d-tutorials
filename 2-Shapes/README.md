@@ -50,18 +50,18 @@ Drawing uses the Renderer object, which is automatically created by the Display.
 |-|-|-|
 |clear|None|Clears the screen and fills it|
 |drawPoint|iVector|Colors a single pixel at the given location|
-|drawLine|iVector, iVector OR Segment(int, 2)|Draws a line between the given points or along the given segment|
+|drawLine|iVector, iVector OR iSegment|Draws a line between the given points or along the given segment|
 |drawRect|iRectangle|Draws the outlines of a rectangle|
 |fillRect|iRectangle|Draws and fills in a rectangle|
 |drawPolygon!T|iPolygon!T|Draws the outlines of a polygon with T sides|
 |fillPolygon!T|iPolygon!T|Draws and fills in a polygon with T sides|
 
-These methods use the d2d objects Vectors, Rectangles, Segments, and Polygons. We will go into more depth on these objects in future tutorials, but for now, know that each have aliases denoting what datatype they use. In graphics, integers will always be used. The aliases iVector, iRectangle, and iPolygon are what will be used. Below is a table of all of the basic objects that will be used in graphics:
+These methods use the d2d objects Vectors, Rectangles, Segments, and Polygons. We will go into more depth on these objects in future tutorials, but for now, know that each have aliases denoting what datatype they use. In graphics, integers will always be used. The aliases iVector, iRectangle, iSegment, and iPolygon are what will be used. Below is a table of all of the basic objects that will be used in graphics:
 
 |Object|Constructor Parameters|Description|
 |-|-|-|
 |iVector|int x, int y|A vector which can represent a point and a distance.|
-|Segment!(int, 2)|iVector initial, iVector terminal|An object representing a segment between two points.|
+|iSegment|iVector initial, iVector terminal|An object representing a segment between two points.|
 |iRectangle|int x, int y, int width, int height|An object with a location and width and height.|
 |iPolygon!T|iVector()[T] vertices|A two dimensional object enclosed by T sides.|
 
