@@ -66,4 +66,4 @@ The next parameter is the window's title. In this example, the title is set to "
 
 ## Conclusion
 
-This concludes the first d2d tutorial, which taught how to create a display and run it. The next tutorial will teach the Screen class. That tutorial can be found here (TODO).
+This concludes the first d2d tutorial, which taught how to create a display and run it. The next tutorial will teach the Activity class.
